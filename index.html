@@ -5,10 +5,15 @@
     <meta charset="utf-8">
     <!--The Metadata for the HTML file. This always goes in the <head>. <meta> specifies the document's character encoding. utf-8 covers every character in every language (universal).-->
     <title>Tab Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/> <!-- Link CSS to HTML. Self closes. -->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
   </head>
   <body>
 
-    <!-- BEGIN WEBSITE -->
+  <!-- BEGIN WEBSITE -->
+
+  <div id="container">
 
   <!-- This div has an id since it's only holding a single element. -->
   <div id="header">
@@ -16,23 +21,18 @@
     <!--<h1> is the first, and largest heading. <h2> is used usually for a sub-heading. Headings go up to 6.-->
   </div>
 
-  <!-- Classes hold multiple elements. -->
-  <div class="home">
+  <div id="home">
       <hr/>
     <!--This is a horizontal line. Self closes. Covers the whole page-->
+        <h3>Home</h3>
         <p>This is my Website! <br/> I broke this paragraph, and now this text is on a new line.</p>
         <p>New Paragraph</p>
     <!--<p> instantiates the paragraph, and <br/> (self closing) will create a new line in the same paragraph.-->
   </div>
 
-  <div class="hyperlink">
-      <hr/>
-        <a href="https://google.com.au">Teleport me to Google</a>
-    <!-- Hyperlink element. Clicking will send you to Google. -->
-  </div>
-
-  <div class="lists">
+  <div id="lists">
     <hr/>
+      <h3>Lists</h3>
       <ul>
           <li>First bullet point</li>
           <li>Second bullet point</li>
@@ -46,9 +46,16 @@
     <hr/>
   </div>
 
-  <div class="footer">
+  <div id="footer">
     <span class="credits">Made by Samuel Mereau, 2019</span>
     <!-- Span tags allow selected text to be customised by CSS, without the line break caused by div. -->
+    <p class="github">
+      <span class="githublink"><a class="link" href="https://github.com/SamuelMereau">My GitHub</a></span>
+      <!-- Hyperlink element. -->
+    </p>
+
+  </div>
+
   </div>
 
   </body>

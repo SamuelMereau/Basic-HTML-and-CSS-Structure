@@ -31,8 +31,8 @@ padding: 10px;
 }
 
 #footer {
-  font-family: 'Acme'; font-size: 15px;
-  padding: 15px;
+  font-family: 'Acme'; font-size: 20px;
+  padding: 10px;
   clear: both;
   background-image: linear-gradient(to left, #b0faff, #ffb0e5);
 }
@@ -44,5 +44,6 @@ padding: 10px;
 .link {
   text-decoration: none;
   font-weight: bold;
+  font-size: 15px
   color: purple;
 }

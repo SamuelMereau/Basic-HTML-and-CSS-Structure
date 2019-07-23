@@ -7,13 +7,41 @@
     <title>Tab Title</title>
   </head>
   <body>
+    
+  <div id="header"> <!-- This div has an id since it's only holding a single element. -->
     <h1>My Website Header</h1>
     <!--<h1> is the first, and largest heading. <h2> is used usually for a sub-heading. -->
-    <hr/>
+  </div>
+
+  <div class="home"> <!-- Classes hold a section of elements. -->
+      <hr/>
     <!--This is a horizontal line. Self closes. Covers the whole page-->
-    <p>This is my Website! <br/> I broke this paragraph, and now this text is on a new line.</p>
-    <p>New Paragraph</p>
+        <p>This is my Website! <br/> I broke this paragraph, and now this text is on a new line.</p>
+        <p>New Paragraph</p>
     <!--<p> instantiates the paragraph, and <br/> (self closing) will create a new line in the same paragraph.-->
+  </div>
+
+  <div class="hyperlink">
+      <hr/>
+        <a href="https://google.com.au">Teleport me to Google</a>
+    <!-- Hyperlink element. Clicking will send you to Google. -->
+  </div>
+
+  <div class="lists">
+    <hr/>
+      <ul>
+          <li>First bullet point</li>
+          <li>Second bullet point</li>
+      </ul>
+      <!-- <ul> starts a point list. <li> are the individual points -->
+      <ol>
+        <li>First numbered point</li>
+        <li>Second numbered point</li>
+      </ol>
+      <!-- <ol> starts a numbered list. Again, <li> are the individual points. -->
+    <hr/>
+  </div>
+
   </body>
 </html>
 
